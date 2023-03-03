@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Canvas</title>
+    <script defer src="canvas.js">
+    </script>
+    <style media="screen">
+      h1{
+        text-align: center;
+      }
+      #imgCanvas{
+        border: 5px solid black;
+        border: double;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        padding: auto;
+      }
+    </style>
+  </head>
+  <body bgcolor = "#aaaaff";>
+    <h1>Drawing Program</h1>
+    <canvas id="imgCanvas" width = "900" height = "800" onclick ="draw(event)"> </canvas>
+    <div id="size"></div>
+  </body>
+</html>

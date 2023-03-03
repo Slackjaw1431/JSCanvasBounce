@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animations</title>
+    <script async type="text/javascript" src="animations.js">
+    </script>
+    <style media="screen">
+      body{
+        background-color: lightblue;
+      }
+      canvas{
+        border: 5px solid black;
+        border: double;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Bouncing Balls</h1>
+<canvas id="imgCanvas" width="900" height="900" onclick="draw(event)" ></canvas>
+<button type="button" id="clear" onclick="clearScreen()">Clear</button>
+  </body>
+</html>
